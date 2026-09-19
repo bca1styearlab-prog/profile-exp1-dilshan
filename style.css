@@ -56,8 +56,18 @@
         h3 {
             color: #24527a;
             margin-top: 15px;
+            font-size: 30px;
+            text-align: center;
         }
 
+         audio {
+            margin: 0;
+            display: flex;
+            margin-left: 400px;
+            justify-content: center;  /* Horizontally centers the item */
+            align-items: center;      /* Vertically centers the item */        
+            background-color: #f4f4f9; /* Optional background color */
+        }
         .profile-container {
             display: flex;
             align-items: center;
@@ -89,6 +99,7 @@
 
         .course-card h3 {
             margin-bottom: 10px;
+            
         }
 
         ul,
