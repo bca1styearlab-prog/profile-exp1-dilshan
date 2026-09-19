@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My College Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header id="main-header">
+
+        <h1>My College Student Portal</h1>
+
+        <p>Welcome to our college webpage.</p>
+
+        <!-- INLINE CSS EXAMPLE -->
+        <p style="color: #ffd166;">
+            Learn HTML and CSS through practice!
+        </p>
+
+    </header>
+
+    <!-- NAVIGATION SECTION -->
+    <nav class="navigation">
+
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#timetable">Timetable</a>
+        <a href="#media">Media</a>
+        <a href="#registration">Registration</a>
+
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+
+        <h2>1. About the Student</h2>
+
+        <div class="profile-container">
+
+            <img
+                src="assets/img/shirou.jpg"
+                alt="Student profile image"
+                class="profile-image"
+            >
+
+            <div>
+
+                <h3>Shirou Emiya</h3>
+
+                <p>
+                    Hello! My name is <strong>Shirou Emiya</strong>.
+                    I am learning <em>Web Technology</em>.
+                </p>
+
+                <p>
+                    blah blah blah
+                </p>
+
+                <p>
+                    blah blah blah
+                </p>
+
+                <!-- This is an HTML comment -->
+
+            </div>
+
+        </div>
+
+        <h3>My Hobbies</h3>
+
+        <!-- UNORDERED LIST -->
+        <ul>
+            <li>Reading</li>
+            <li>Learning programming</li>
+            <li>Listening to music</li>
+            <li>Playing games</li>
+        </ul>
+
+        <h3>My Daily Activities</h3>
+
+        <!-- ORDERED LIST -->
+        <ol>
+            <li>Attend college</li>
+            <li>Attend practical classes</li>
+            <li>Complete assignments</li>
+            <li>Practise programming</li>
+        </ol>
+
+        <p>
+            Visit
+            <a href="https://www.google.com" target="_blank">
+                Google
+            </a>
+            to search for learning resources.
+        </p>
+
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section id="courses">
+
+        <h2>2. Available Courses</h2>
+
+        <div class="course-container">
+
+            <div class="course-card">
+
+                <h3>BCA Cloud Computing</h3>
+
+                <p>
+                    Learn cloud platforms, networking and computing.
+                </p>
+
+            </div>
+
+            <div class="course-card">
+
+                <h3>BCA Computer Applications</h3>
+
+                <p>
+                    Learn programming and application development.
+                </p>
+
+            </div>
+
+            <div class="course-card">
+
+                <h3>B.Sc. Computer Science</h3>
+
+                <p>
+                    Learn computer science fundamentals.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TABLE SECTION -->
+    <section id="timetable">
+
+        <h2>3. Student Timetable</h2>
+
+        <table>
+
+            <caption>Weekly Class Timetable</caption>
+
+            <thead>
+
+                <tr>
+                    <th>Day</th>
+                    <th>Subject</th>
+                    <th>Time</th>
+                    <th>Room</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>9:00 AM</td>
+                    <td>Lab 1</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>CSS</td>
+                    <td>10:00 AM</td>
+                    <td>Lab 1</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>JavaScript</td>
+                    <td>11:00 AM</td>
+                    <td>Lab 2</td>
+                </tr>
+
+                <tr>
+                    <td>Thursday</td>
+                    <td>Cloud Computing</td>
+                    <td>9:00 AM</td>
+                    <td>Lab 3</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- MEDIA SECTION -->
+    <section id="media">
+
+        <h2>4. Multimedia Content</h2>
+
+        <h3>College Image</h3>
+
+        <img
+            src="https://via.placeholder.com/600x200"
+            alt="College banner"
+            width="100%"
+        >
+
+        <h3>Audio</h3>
+
+        <audio controls>
+
+            <source src="sample-audio.mp3" type="audio/mpeg">
+
+            Your browser does not support audio.
+
+        </audio>
+
+        <h3>Video</h3>
+
+        <video width="100%" controls>
+
+            <source src="assets/vid/deku.mp4" type="video/mp4">
+
+            Your browser does not support video.
+
+        </video>
+
+        <p>
+            Audio and video files must be available in the same folder
+            as this HTML file.
+        </p>
+
+    </section>
+
+    <!-- BOX MODEL SECTION -->
+    <section>
+
+        <h2>5. CSS Box Model</h2>
+
+        <div class="box-model">
+
+            <strong>Content</strong>
+
+            <p>
+                This box demonstrates content, padding,
+                border and margin.
+            </p>
+
+        </div>
+
+        <p>
+            The CSS Box Model contains:
+            Content, Padding, Border and Margin.
+        </p>
+
+    </section>
+
+    <!-- REGISTRATION FORM -->
+    <section id="registration">
+
+        <h2>6. Student Registration Form</h2>
+
+        <form>
+
+            <label for="fullname">
+                Full Name:
+            </label>
+
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your full name"
+                required
+            >
+
+            <label for="email">
+                Email:
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="password">
+                Password:
+            </label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter a password"
+            >
+
+            <label for="dob">
+                Date of Birth:
+            </label>
+
+            <input
+                type="date"
+                id="dob"
+                name="dob"
+            >
+
+            <label>
+                Gender:
+            </label>
+
+            <input type="radio" name="gender" value="male">
+            Male
+
+            <input type="radio" name="gender" value="female">
+            Female
+
+            <input type="radio" name="gender" value="other">
+            Other
+
+            <label>
+                Skills:
+            </label>
+
+            <input type="checkbox" name="skill" value="html">
+            HTML
+
+            <input type="checkbox" name="skill" value="css">
+            CSS
+
+            <input type="checkbox" name="skill" value="javascript">
+            JavaScript
+
+            <label for="course">
+                Select Course:
+            </label>
+
+            <select id="course" name="course">
+
+                <option value="">
+                    Select a course
+                </option>
+
+                <option value="cloud">
+                    BCA Cloud Computing
+                </option>
+
+                <option value="computer">
+                    BCA Computer Applications
+                </option>
+
+                <option value="science">
+                    B.Sc. Computer Science
+                </option>
+
+            </select>
+
+            <label for="address">
+                Address:
+            </label>
+
+            <textarea
+                id="address"
+                name="address"
+                rows="4"
+                placeholder="Enter your address"
+            ></textarea>
+
+            <button
+                type="submit"
+                class="button"
+            >
+                Register
+            </button>
+
+            <button
+                type="reset"
+                class="button"
+            >
+                Reset
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            2026 My College Student Portal
+        </p>
+
+        <p>
+            Created using HTML and CSS.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
